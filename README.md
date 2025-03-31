@@ -47,7 +47,7 @@ public class SendEmailMessage : IBaseMessage
 {
     public string Name => "Sample Email Message";
     public string Description => "Triggers sending email messages.";
-    public int Email { get; set; }
+    public string Email { get; set; }
 }
 ```
 
