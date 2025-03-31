@@ -1,0 +1,6 @@
+@SampleApi_HostAddress = http://localhost:5177
+
+GET {{SampleApi_HostAddress}}/publish/
+Accept: application/json
+
+###
